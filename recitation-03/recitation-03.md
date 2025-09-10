@@ -121,7 +121,7 @@ what it returns.
 .  
 .  
 
-b) Write the work recurrence formula for `num_disagreements_fast`.
+b) Write the work recurrence formula for `num_disagreements_fast`. Please explain how do you have this.
 
 .  
 .  
@@ -130,7 +130,7 @@ b) Write the work recurrence formula for `num_disagreements_fast`.
 .  
 .  
 
-c) Solve this recurrence using any method you like.
+c) Solve this recurrence using any method you like. Please explain how do you have this.
 
 .  
 .  
@@ -147,7 +147,7 @@ c) Solve this recurrence using any method you like.
 
 
 d) Assuming that your recursive calls to `num_disagreements_fast` are
-done in parallel, write the span recurrence for your algorithm.
+done in parallel, write the span recurrence for your algorithm. Please explain how do you have this.
 
 .  
 .  
@@ -162,7 +162,7 @@ done in parallel, write the span recurrence for your algorithm.
 .  
 .  
 
-e) Solve this recurrence using any method you like.
+e) Solve this recurrence using any method you like. Please explain how do you have this.
 
 .  
 .  
@@ -180,5 +180,5 @@ e) Solve this recurrence using any method you like.
 f) If `ranks` is a list of size n, Netflix says it will give you
 lg(n) processors to run your algorithm in parallel. What is the
 upper bound on the runtime of this parallel implementation? (Hint: assume a Greedy
-Scheduler).
+Scheduler). Please explain how do you have this.
 
