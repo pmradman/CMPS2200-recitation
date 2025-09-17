@@ -154,7 +154,7 @@ done in parallel, write the span recurrence for your algorithm. Please explain h
 
 .  
 .  
-.  Span simply looks at the maximum depth of one recurssive branch when run in parallel. In this case the Span equation would be S(n) = S(n/2) + O(n) since the only differenc eis we are not looking at both sides, meaning not multiplying by 2. 
+.  Span simply looks at the maximum depth of one recurssive branch when run in parallel. In this case the Span equation would be S(n) = S(n/2) + O(log n) since the only differenc is we are not looking at both sides, meaning not multiplying by 2. 
 .  
 .  
 .  
@@ -167,7 +167,7 @@ e) Solve this recurrence using any method you like. Please explain how do you ha
 .  
 .  
 .  
-.  When this gets solved, n + n/2 + n/4 etc = O(n). since we are looking asymptotically, and neither the outside work or the leaf work is larger, the work simply becomes S(n) = O(n) wghen ignoring constants. since O(n) + O(n ) = 2n, we sikmply say S(n) = O (n)
+.  When this gets solved, n + n/2 + n/4 etc = O(n). since we are looking asymptotically, and neither the outside work or the leaf work is larger, the work simply becomes S(n) = O(n) wghen ignoring constants. since O(n) + O(log n ) = n + log n, we sikmply say S(n) = O (n)
 .  
 .  
 .  
